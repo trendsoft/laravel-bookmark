@@ -6,5 +6,7 @@
  */
 
 return [
-
+    'user_foreign_key' => 'user_id',
+    'bookmarks_table' => 'bookmarks',
+    'bookmark_model' => \LaravelBookmark\Bookmark::class
 ];

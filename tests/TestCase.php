@@ -8,6 +8,7 @@
 namespace Tests;
 
 use Illuminate\Foundation\Application;
+use LaravelBookmark\BookmarkServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -19,7 +20,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
      */
     protected function getPackageProviders($app)
     {
-        return [];
+        return [BookmarkServiceProvider::class];
     }
 
     /**

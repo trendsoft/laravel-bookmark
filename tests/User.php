@@ -8,8 +8,11 @@
 namespace Tests;
 
 use Illuminate\Database\Eloquent\Model;
+use LaravelBookmark\Traits\Bookmarker;
 
 class User extends Model
 {
+    use Bookmarker;
 
+    protected $fillable = ['name'];
 }

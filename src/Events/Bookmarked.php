@@ -5,14 +5,10 @@
  * This source file is subject to the MIT license that is bundled.
  */
 
-namespace Tests;
+namespace LaravelBookmark\Events;
 
-use Illuminate\Database\Eloquent\Model;
-use LaravelBookmark\Traits\Bookmarkable;
 
-class Post extends Model
+class Bookmarked extends Event
 {
-    use Bookmarkable;
 
-    protected $fillable = ['title'];
 }
