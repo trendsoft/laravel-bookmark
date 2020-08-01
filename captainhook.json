@@ -3,7 +3,7 @@
         "enabled": true,
         "actions": [
             {
-                "action": "\\CaptainHook\\App\\Hook\\Message\\Action\\Beams",
+                "action": "\\Ramsey\\CaptainHook\\ValidateConventionalCommit",
                 "options": {
                     "subjectLength": 50,
                     "bodyLineLength": 72
@@ -48,8 +48,12 @@
         ]
     },
     "prepare-commit-msg": {
-        "enabled": false,
-        "actions": []
+        "enabled": true,
+        "actions": [
+            {
+                "action": "\\Ramsey\\CaptainHook\\PrepareConventionalCommit"
+            }
+        ]
     },
     "post-commit": {
         "enabled": false,

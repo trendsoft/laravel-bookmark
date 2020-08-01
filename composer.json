@@ -25,13 +25,19 @@
         "laravel/framework": "^5.5||~6.0||~7.0"
     },
     "require-dev": {
-        "laravel/framework": "^5.7",
         "phpunit/phpunit": "~8.0",
         "friendsofphp/php-cs-fixer": "^2.16",
         "captainhook/captainhook": "^5.3",
         "captainhook/plugin-composer": "^5.2",
-        "orchestra/testbench": "^3.8"
+        "orchestra/testbench": "^5.0",
+        "ramsey/conventional-commits": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ramsey/conventional-commits.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "LaravelBookmark\\": "src/"
