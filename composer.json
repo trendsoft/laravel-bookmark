@@ -51,6 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
+                "Trendsoft\\LaravelBookmark\\BookmarkServiceProvider"
             ]
         },
         "hooks": {
