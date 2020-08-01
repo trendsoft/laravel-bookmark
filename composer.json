@@ -40,7 +40,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "LaravelBookmark\\": "src/"
+            "Trendsoft\\LaravelBookmark\\": "src/"
         }
     },
     "autoload-dev": {

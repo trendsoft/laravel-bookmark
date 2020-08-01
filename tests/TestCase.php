@@ -8,7 +8,7 @@
 namespace Tests;
 
 use Illuminate\Foundation\Application;
-use LaravelBookmark\BookmarkServiceProvider;
+use Trendsoft\LaravelBookmark\BookmarkServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

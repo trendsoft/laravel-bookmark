@@ -8,7 +8,7 @@
 namespace Tests;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelBookmark\Traits\Bookmarker;
+use Trendsoft\LaravelBookmark\Traits\Bookmarker;
 
 class User extends Model
 {

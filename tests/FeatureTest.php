@@ -12,8 +12,8 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
-use LaravelBookmark\Events\Bookmarked;
-use LaravelBookmark\Events\Unbookmarked;
+use Trendsoft\LaravelBookmark\Events\Bookmarked;
+use Trendsoft\LaravelBookmark\Events\Unbookmarked;
 
 class FeatureTest extends TestCase
 {

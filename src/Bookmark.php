@@ -6,13 +6,13 @@
  * This source file is subject to the MIT license that is bundled with this source code in the file LICENER.
  */
 
-namespace LaravelBookmark;
+namespace Trendsoft\LaravelBookmark;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use LaravelBookmark\Events\Bookmarked;
-use LaravelBookmark\Events\Unbookmarked;
+use Trendsoft\LaravelBookmark\Events\Bookmarked;
+use Trendsoft\LaravelBookmark\Events\Unbookmarked;
 
 class Bookmark extends Model
 {

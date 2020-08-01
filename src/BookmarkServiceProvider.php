@@ -6,7 +6,7 @@
  * This source file is subject to the MIT license that is bundled with this source code in the file LICENER.
  */
 
-namespace LaravelBookmark;
+namespace Trendsoft\LaravelBookmark;
 
 use Illuminate\Support\ServiceProvider;
 
