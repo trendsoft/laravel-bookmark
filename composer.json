@@ -30,7 +30,7 @@
         "captainhook/captainhook": "^5.3",
         "captainhook/plugin-composer": "^5.2",
         "orchestra/testbench": "^5.0",
-        "ramsey/conventional-commits": "dev-master"
+        "ramsey/conventional-commits": "^1.0"
     },
     "repositories": [
         {
